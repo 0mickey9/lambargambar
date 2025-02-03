@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222222;
+    
+}
+.container{
+    width: 1440px;
+    height: 3818px;
+    background: #fff;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.first{
+    width: 1440px;
+    height: 1024px;
+    background-image: url(ca.png);
+
+}
+
+
+.title{
+    width: 1440px;
+    height: 128px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;    
+    
+}
+.logo{
+    width: 168px;
+    height: 98px;
+    background-image: url(lam.png);
+    margin-right: -55px;
+    /* background-color: red; */
+    
+}
+
+.lam{
+    width: 263px;
+    height: 43px;
+    opacity: 0px;
+    font-family: Montserrat Subrayada;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42.67px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: aliceblue;
+    margin-top: -18px;
+    /* background-color: red; */
+    }
+.ot{
+    color: aliceblue;
+    margin-top: -18px;
+    width: 1007px;
+    height: 30px;
+    margin-left: 43px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* background-color: greenyellow; */
+    word-spacing: 20px;
+}
+.rect2{
+    width: 90px;
+    height: 10px;
+    background-image: url(rect2.png);
+    margin-left: 416px;
+
+}
+.second{
+    width: 1440px;
+    height: 602px;
+    background-image: url(photo_2025-02-03_21-23-21.jpg);
+}
